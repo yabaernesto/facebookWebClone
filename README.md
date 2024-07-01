@@ -12,7 +12,7 @@ A aplicação conta com campos validados e uma tipagem estática!
 #### Para testar
 
 ```bash
-git clone 
+git clone https://github.com/yabaernesto/facebookWebClone
 ```
 
 ```bash
