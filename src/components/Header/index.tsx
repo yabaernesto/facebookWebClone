@@ -1,4 +1,7 @@
-import styles from './Header.module.css';
+import styles from './Header.module.css'
+import { Avatar } from '../Avatar';
+import API from '../../API.json';
+
 import IconHome from './../../assets/icons/home.svg';
 import IconVideo from './../../assets/icons/videos.svg';
 import IconMarket from './../../assets/icons/market.svg';
@@ -78,10 +81,7 @@ export function Header() {
                     />
                 </a>
                 <a href="#">
-                    <img 
-                        src={IconNotification}
-                        alt="Perfil"
-                    />
+                    <Avatar src={API.user.perfil} />
                 </a>
             </div>
         </header>

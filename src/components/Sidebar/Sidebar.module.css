@@ -1,0 +1,28 @@
+.aside {
+    padding-top: 1rem;
+    padding: 1rem;
+    background: var(--black-500);
+}
+
+.aside .box {
+    margin-top: 1.5rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.aside .box:first-child {
+    margin-top: -0.15rem;
+}
+
+.aside .box img {
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.aside .box h4 {
+    text-align: left;
+    margin-left: 1rem;
+    font-size: 10pt;
+    cursor: pointer;
+}
