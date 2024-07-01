@@ -1,0 +1,8 @@
+.wrapper {
+    width: 100%;
+}
+
+.wrapper > main {
+    display: grid;
+    grid-template-columns: 18.96875rem auto 18.96875rem;
+}
