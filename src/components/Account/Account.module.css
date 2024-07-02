@@ -1,3 +1,96 @@
 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.box {
+    width: 100%;
+    background: var(--black-500);
+    padding: 1.5rem 1rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px var(--black-550), 2px 2px 2px var(--black-550);
+}
+
+.box img {
+    cursor: pointer;
+}
+
+.box > .anuncio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box > h6 {
+    font-size: 13pt;
+    margin-bottom: 1rem;
+}
+
+.box > .anuncio h6 {
+    font-size: 11pt;
+}
+
+.box > .anuncio p {
+    font-size: 8pt;
+}
+
+.box > .anuncio .infoNuncio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: -5rem;
+}
+
+.box .birthday {
+    display: flex;
+    align-items: center;
+}
+
+.box .birthday > img {
+    margin-right: 1rem;
+}
+
+.box .birthday .infoText {
+    font-size: 7pt;
+    letter-spacing: 1px;
+}
+
+.box header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box header h6 {
+    font-size: 13pt;
+}
+
+.box header .icons {
+    display: flex;
+}
+
+.box header .icons img {
+    height: 1rem;
+    margin-right: 1rem;
+}
+
+.contact .avatar {
+    display: flex;
+    align-items: center;
+}
+
+.contact .avatar img {
+    height: 2rem;
+    margin-top: .40rem;
+}
+
+.contact .avatar p {
+    font-size: 8pt;
+    margin-left: .30rem;
+    cursor: pointer;
 }
