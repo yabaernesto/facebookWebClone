@@ -42,6 +42,21 @@ export function Sidebar() {
                 <Avatar src={IconDown} />
                 <h4>Ver mais...</h4>
             </div>
+            <hr />
+            <h3>Os teus atalhos</h3>
+            <div className={styles.boxContact}>
+                <div className={styles.primary}>
+                    <a href="#">Privacidade</a>
+                    <a href="#">Termos</a>
+                    <a href="#">Publicidade</a>
+                </div>
+                <div className={styles.second}>
+                    <a href="#">AdChoices</a>
+                    <a href="#">Cookies</a>
+                    <a href="#">Mais</a>
+                    <a href="#">Meta @ 2024</a>
+                </div>
+            </div>
         </aside>
     );
 }

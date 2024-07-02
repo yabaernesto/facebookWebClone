@@ -1,7 +1,6 @@
 # Facebook Web Clone
 
 A fins de consolidar os estudos de ReactJS + TypeScript, resolvi desenvolver a UI do Facebook Web.
-A aplicação conta com campos validados e uma tipagem estática!
 
 #### Tecnologias
 - ReactJS

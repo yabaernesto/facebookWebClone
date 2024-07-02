@@ -2,6 +2,7 @@
     padding-top: 1rem;
     padding: 1rem;
     background: var(--black-500);
+    height: 90vh;
 }
 
 .aside .box {
@@ -15,6 +16,12 @@
     margin-top: -0.15rem;
 }
 
+hr {
+    margin: 1rem 0;
+    color: var(--border-500);
+    border: 1px solid;
+}
+
 .aside .box img {
     height: 1.5rem;
     cursor: pointer;
@@ -25,4 +32,24 @@
     margin-left: 1rem;
     font-size: 10pt;
     cursor: pointer;
+}
+
+.aside h3 {
+    color: var(--grey-300);
+    font-size: 12pt;
+}
+
+.boxContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 8rem;
+}
+
+.boxContact a {
+    color: var(--grey-300);
+    font-size: 9pt;
+    margin: 0 .30rem;
+    text-decoration: none;
 }
