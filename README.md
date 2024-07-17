@@ -9,7 +9,7 @@ A fins de consolidar os estudos de ReactJS + TypeScript, resolvi desenvolver a U
 - CSS Module
 
 #### projeto
-<img src="public/print.png" style="width: 250px" />
+<img src="./public/print.png" style="width: 250px">
 
 #### Para testar
 
